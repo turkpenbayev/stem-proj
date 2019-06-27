@@ -33,7 +33,7 @@ mqttc.on_connect = on_connect
 mqttc.on_message = on_message
 mqttc.username_pw_set("uwbfgkzz", "3rAA12jepUwD")
 mqttc.connect("m24.cloudmqtt.com", 14281, 60)
-# # mqttc.connect("localhost",1883,60)
+# mqttc.connect("localhost",1883,60)
 mqttc.loop_start()
 
 

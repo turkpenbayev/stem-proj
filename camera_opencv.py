@@ -130,7 +130,7 @@ class Camera(BaseCamera):
                     if arearatio < 27:
                         label = '3'
                     else:
-                        label = 'ok'
+                        label = '3'
 
                 elif l == 4:
                     label = '4'
